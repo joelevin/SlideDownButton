@@ -14,6 +14,7 @@
 		F291BA0F1A155003005342DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F291BA0E1A155003005342DB /* Images.xcassets */; };
 		F291BA121A155003005342DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F291BA101A155003005342DB /* LaunchScreen.xib */; };
 		F291BA1E1A155003005342DB /* Google_ButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F291BA1D1A155003005342DB /* Google_ButtonTests.m */; };
+		F291BA291A15548F005342DB /* ExpandoButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F291BA281A15548F005342DB /* ExpandoButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		F291BA171A155003005342DB /* Google ButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Google ButtonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F291BA1C1A155003005342DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F291BA1D1A155003005342DB /* Google_ButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Google_ButtonTests.m; sourceTree = "<group>"; };
+		F291BA271A15548F005342DB /* ExpandoButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpandoButton.h; sourceTree = "<group>"; };
+		F291BA281A15548F005342DB /* ExpandoButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExpandoButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				F291BA081A155002005342DB /* ViewController.h */,
 				F291BA091A155002005342DB /* ViewController.m */,
 				F291BA0B1A155002005342DB /* Main.storyboard */,
+				F291BA271A15548F005342DB /* ExpandoButton.h */,
+				F291BA281A15548F005342DB /* ExpandoButton.m */,
 				F291BA0E1A155003005342DB /* Images.xcassets */,
 				F291BA101A155003005342DB /* LaunchScreen.xib */,
 				F291BA011A155002005342DB /* Supporting Files */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F291BA0A1A155002005342DB /* ViewController.m in Sources */,
+				F291BA291A15548F005342DB /* ExpandoButton.m in Sources */,
 				F291BA071A155002005342DB /* AppDelegate.m in Sources */,
 				F291BA041A155002005342DB /* main.m in Sources */,
 			);
